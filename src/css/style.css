@@ -79,3 +79,25 @@ body{
 }
 
 
+@media screen and (max-width: 1020px){
+    /* Resposivo geral */
+    .containterPrincipal{
+        flex-direction: column;
+        padding: 1%;
+    }
+
+    .containterPrincipal .infoContainter h1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .containterPrincipal .infoContainter p{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .containterPrincipal .containterFormulario{
+        width: 65%;
+    }
+}
+
